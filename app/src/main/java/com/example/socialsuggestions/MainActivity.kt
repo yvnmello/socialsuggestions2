@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-
         setContentView(R.layout.activity_main)
+
         txttime = findViewById(R.id.txttime)
         txtoutput = findViewById(R.id.txtoutput)
         btnsubmit = findViewById(R.id.btnsubmit)
